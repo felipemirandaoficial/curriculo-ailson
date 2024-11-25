@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+
+}
+
+header {
+    background-color: #340535;
+    padding: 10px 0;
+
+}
+
+#about h2 {
+    font-size: 35px;
+    color: white;
+    margin-left: 30px;
+}
+
+#divcenter {
+    background-color: white;
+    display: flex;
+	height: auto;
+}
+
+#esquerda {
+    width: 75%;
+    padding: 20px;
+}
+
+#direita {
+    width: 25%;
+    background-color: #aaaedb;
+    padding: 20px;
+    text-align: center;
+}
+
+h4 {
+    text-align: left;
+}
+
+#foto {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 180px;
+}
+
+footer {
+    background-color: #07225fcb;
+    color: white;
+    text-align: center;
+    padding: 8px 0;
+}
+
+#final {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#final a {
+    margin-right: 10px;
+}
+
+.social_icone {
+    display: flex;
+}
+
+img {
+    width: 50px;
+}
+
+#separator{
+	
+     justify-content: left;
+	 display: flex;
+}
+
+#pt {
+	
+	margin-right: 8px;
+	margin-top: 2px;
+    height: 50px;
+    width: 50px;
+	
+}
+
+
+@media screen and (max-width: 600px) {
+    *{
+        box-sizing: border-box;
+    }
+
+    #divcenter {
+        display: flex;
+        flex-direction: column;
+		
+    }
+	footer{
+
+	}
+    #esquerda {
+        padding: 10px; 
+        width: auto;
+		margin-top: 0;
+    }
+	#direita {
+
+        padding: 10px; 
+        width: auto;
+		margin-top: 0;
+    }
+}
